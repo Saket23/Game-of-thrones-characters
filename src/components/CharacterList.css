@@ -1,0 +1,19 @@
+.root {
+  width: 50%;
+  margin: auto;
+}
+
+.element {
+  border: solid 1px black;
+  padding: 20px 10px;
+  margin-bottom: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.element:hover {
+  background-color: lightgray;
+}
