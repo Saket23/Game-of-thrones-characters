@@ -15,6 +15,7 @@ export class CharacterList extends PureComponent {
     const { data, isDataLoaded } = this.props;
     return (
       <div className="root">
+        <div>Hello World</div>
         {isDataLoaded &&
           data.map((d, i) => (
             <Link to={`/${i + 1}`}>
